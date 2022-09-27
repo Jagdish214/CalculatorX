@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+    tools:layout_editor_absoluteY="81dp">
+
+    <!-- Text view for result view-->
+    <TextView
+        android:id="@+id/textView_answer"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="500dp"
+        android:hint="0"
+        android:background="@color/purple_700"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <!--take the input first number-->
+    <EditText
+        android:id="@+id/editText_first_no"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/purple_700"
+        android:inputType="number" />
+    <!-- view message input first number-->
+    <TextView
+        android:id="@+id/textView_first_no"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/purple_200"
+        android:text="First number: "
+        android:textSize="20dp" />
+
+    <!--view message input for second number -->
+    <TextView
+        android:id="@+id/textView_second_no"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/purple_200"
+        android:text="Second number: "
+        android:textSize="20dp" />
+
+    <!-- take input for second number -->
+
+    <EditText
+        android:id="@+id/editText_second_no"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="90dp"
+        android:background="@color/purple_700"
+        android:inputType="number"
+        tools:ignore="MissingConstraints" />
+
+    <!-- button for run add logic and view result -->
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="230dp"
+        android:background="@color/teal_200"
+        android:text="ADD" />
+
+    <!-- button for run sub logic and view result -->
+
+    <Button
+        android:id="@+id/sub_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="230dp"
+        android:background="@color/teal_200"
+        android:text="sub" />
+
+    <!-- button for run multiply logic and view result -->
+
+    <Button
+        android:id="@+id/mul_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/teal_200"
+        android:text="MUL" />
+
+    <!-- button for run division logic and view result -->
+
+    <Button
+        android:id="@+id/div_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/teal_200"
+        android:text="DIV" />
+
+
+</RelativeLayout>
